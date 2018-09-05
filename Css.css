@@ -1,0 +1,130 @@
+body {
+    
+    font-family: arial, helvetica, sans-serif;
+    background-color: rgb(200,253,229);
+    line-height: 1.5;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    
+}
+
+body h1{
+    text-align: center;
+    font-size: 25px;
+}
+body h2{
+    font-size: 18px;
+    background-color: rgba(130,130,130,0);
+}
+body h3{
+    text-align: left;
+    margin-left:15%;
+    
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container{
+    
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+
+}
+
+header{
+    background: rgb(190,190,190);
+    color:rgb(2,2, 2);
+    border-bottom: blue 3px solid;
+    border-top: blue 3px solid;
+    min-height: 120px;
+}
+
+header h1{
+    float:left;
+    margin-left:15%;
+    font-size: 70px;
+    margin-top: 0%;
+
+    
+    
+}
+header li{
+float:right;
+ display: inline;
+ font-size: 17px;
+ margin-right: 10%;
+ margin-top:30px;
+    padding-right: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: blue;
+    
+}
+nav{
+    margin-top: 30px;
+    margin:30px;
+    float: right;
+    background-color:blue;
+}
+
+#Background{
+    background:url(ice.jpg) no-repeat  0px 0px;
+    min-height: 800px;
+}
+
+footer{
+    background: rgb(190,190,190);
+    color:rgb(102, 255, 255);
+    border-bottom: blue 3px solid;
+    border-top: blue 3px solid;
+    min-height: 120px;
+    text-align: center;
+
+}
+
+
+header .highlight{
+    color:lime;
+    font-weight: bold;
+}
+header a:hover{
+    font-weight: bold;
+    color:rgb(20,100,100);
+}
+footer a:hover{
+    font-weight: bold;
+    color: rgb(0,200,200);
+}
+
+@media(max-width:770px){
+    header{
+        color:orange;
+    }
+}
+@media(max-width:770px){
+    header hi, nav{
+        float: none;
+    }
+}
