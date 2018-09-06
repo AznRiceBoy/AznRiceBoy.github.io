@@ -1,5 +1,5 @@
 body {
-    
+    /* Overall body format*/
     font-family: arial, helvetica, sans-serif;
     background-color: rgb(200,253,229);
     line-height: 1.5;
@@ -22,7 +22,7 @@ text-align: center;
 }
 
 
-body h6{
+body h6{ /* made for the images */
 text-align: center;
 padding-bottom: 20px;
 padding-top: 20px;
@@ -37,6 +37,7 @@ padding-left: 20px;
     padding: 0 80px;
     
 }
+/* Columns and rows used to correctly align the image w/ liks */
 .column {
     float: left;
     width: 33.33%;
@@ -132,9 +133,9 @@ footer a:hover{
     color: rgb(0,200,200);
 }
 
-@media(max-width:770px){
-    header{
-        color:orange;
+@media(max-width:850px){
+    body h3 {
+        font-size: 0px;
     }
 }
 @media(max-width:770px){
